@@ -39,6 +39,7 @@ getsockopt: 1
 accept4: 1
 mremap: 1
 pread64: 1
+lseek: 1
 fstatfs: 1
 rt_sigaction: 1
 rt_sigprocmask: 1
