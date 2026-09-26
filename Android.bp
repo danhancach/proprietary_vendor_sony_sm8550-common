@@ -833,6 +833,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "audio.primary.kalama",
     owner: "sony",
+    // SSOT: CAF fork danhancach (evox) build tu source — tat prebuilt stock
+    enabled: false,
     strip: {
         none: true,
     },
@@ -866,7 +868,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     relative_install_path: "hw",
-    prefer: false,  // CAF HAL (haptic PCM mixer + PAL path)
+    prefer: false,
     soc_specific: true,
 }
 
